@@ -51,7 +51,7 @@ We currently plan to use the following Cook County Assessor datasets:
 
    Link: https://datacatalog.cookcountyil.gov/Property-Taxation/Assessor-Property-Tax-Exempt-Parcels/vgzx-68gb/about_data
 
-5. **Neighborhood Boundaries** *(optional extension)*  
+5. (Optional for now) **Neighborhood Boundaries**
    May be used later for more detailed subgroup analysis and visualization.
 
    Link: http://catalog.data.gov/dataset/assessor-neighborhood-boundaries
