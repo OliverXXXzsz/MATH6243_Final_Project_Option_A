@@ -69,7 +69,7 @@ Our two primary methods are:
 
 These models will be used to predict **Total Assessed Value** using structural and geographic predictors.
 
-After the prediction stage, we will run a **simplified counterfactual tax-shift simulation** using **Land AV** and **Improvement AV** to study how the simulated tax burden changes when the burden is shifted away from improvements and toward land.
+After the prediction stage, we will run a simplified counterfactual tax-shift simulation using Land AV and Improvement AV to study how the simulated tax burden changes when the burden is shifted away from improvements and toward land.
 
 ## Unit of Analysis
 The main unit of analysis is **parcel-year**.
