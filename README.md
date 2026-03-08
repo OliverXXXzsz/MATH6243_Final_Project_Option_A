@@ -79,7 +79,7 @@ This is the most appropriate level because assessment values are tied to tax yea
 ## Repository Structure (following the suggestions from the Project Guide)
 This repository is organized as follows:
 
-- `data_raw/` — raw downloaded source data (not committed if too large)
+- `data_raw/` — raw downloaded source data
 - `data_processed/` — cleaned and merged analysis-ready data
 - `src/` — preprocessing, modeling, and simulation scripts
 - `reports/` — proposal, notes, and final write-ups
