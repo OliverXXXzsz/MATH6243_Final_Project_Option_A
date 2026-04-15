@@ -5,7 +5,7 @@ import plotly.express as px
 # Set page layout to wide
 st.set_page_config(page_title="Tax Shift Simulation", layout="wide")
 
-st.title("🏛️ Chicago / Cook County Land Tax Shift Simulation (2025)")
+st.title("🏛️ Cook County Land Tax Shift Simulation (2025)")
 st.markdown("This application demonstrates the **Distributional Impact** of shifting from the current property tax system to a **Pure Land Value Tax (LVT)**.")
 
 # 1. Load data (use caching for performance)
