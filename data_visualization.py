@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+from huggingface_hub import hf_hub_download
 
 # Set page layout to wide
 st.set_page_config(page_title="Tax Shift Simulation", layout="wide")
@@ -11,9 +12,12 @@ st.markdown("This application demonstrates the **Distributional Impact** of shif
 # 1. Load data (use caching for performance)
 @st.cache_data
 def load_data():
-    return pd.read_csv("dist_2025_df.csv")
-
-df = load_data()
+    file_path = hf_hub_download(
+        repo_id="OliverZSZ/math6243-cook-county-tax-shift-data",
+        filename="dist_2025_df.csv",
+        repo_type="dataset"
+    )
+    return pd.read_csv(file_path)
 
 # 2. Sidebar: Interactive Policy Parameters
 st.sidebar.header("⚙️ Policy Parameters")
