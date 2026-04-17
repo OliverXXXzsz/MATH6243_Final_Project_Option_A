@@ -18,6 +18,7 @@ def load_data():
         repo_type="dataset"
     )
     return pd.read_csv(file_path)
+df = load_data()
 
 # 2. Sidebar: Interactive Policy Parameters
 st.sidebar.header("⚙️ Policy Parameters")
