@@ -46,16 +46,6 @@ We currently plan to use the following Cook County Assessor datasets:
 
    Link: https://catalog.data.gov/dataset/assessor-parcel-universe-current-year-only
 
-4. (Optional for now) **Property Tax-Exempt Parcels**  
-   Used for sample restriction so the analysis focuses on taxable residential parcels.
-
-   Link: https://datacatalog.cookcountyil.gov/Property-Taxation/Assessor-Property-Tax-Exempt-Parcels/vgzx-68gb/about_data
-
-5. (Optional for now) **Neighborhood Boundaries**
-   May be used later for more detailed subgroup analysis and visualization.
-
-   Link: http://catalog.data.gov/dataset/assessor-neighborhood-boundaries
-
 In addition, we use the CCAO GitHub wiki as a documentation starting point for identifying and understanding the public data ecosystem:
 
 - CCAO Data Wiki: https://github.com/ccao-data/wiki
